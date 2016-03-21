@@ -6,4 +6,5 @@ class Post < ActiveRecord::Base
 
   validates_attachment_content_type :image, :content_type => /\Aimage\/.*\z/
   validates :user_id, presence: true
+  has_many :comments, dependent: :destroy
 end

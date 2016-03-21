@@ -15,6 +15,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+@import "navbar";
 @import "posts";
 
 body {
@@ -23,21 +24,3 @@ body {
   Helvetica, sans-serif;
 }
 
-.navbar-brand {
-  a {
-    color: #125688;
-  }
-}
-
-.navbar-default {
-  background-color: #fff;
-  height: 54px;
-  .navbar-nav li a {
-    color: #125688;
-  }
-}
-
-.navbar-container {
-  width: 640px;
-  margin: 0 auto;
-}
