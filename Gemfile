@@ -31,6 +31,7 @@ gem 'bootstrap-sass'
 gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'devise'
 gem 'kaminari'
+gem 'jquery-turbolinks'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
